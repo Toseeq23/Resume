@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Bubble;
+    src: url(../styles/Calligraffitti-Regular.ttf);
+}
+
+header h1{
+    font-family: Bubble;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    min-width: 100vh;
+}
+header{
+    color: white;
+    background-image: url(../Images/twitter-header-1600-x-1000-background-epbnhmsd4gr4pke1.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+}
+header h1 {
+         font-size: 35px;
+}
+header h3 {
+        font-size: 24px ;
+}
+header img {
+    border-radius: 50%;
+}
+
+main{
+    
+    background-color: white;
+
+}
+ 
+.box{
+    color: white;
+    background-color: black;
+     margin-bottom: 30px;
+     text-align: center;
+     padding: 10px;
+     height: 30px; 
+     margin: 0 auto 10px;
+     font-size: 28px;
+     border-left: 8px solid darkgreen
+}
+.container{
+    position: relative;
+    max-width: 1000vh;
+    max-height: 1000vh;
+    min-height: 500px;
+    min-width: 500;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+main h2{
+    color: white;
+
+}
+main p{
+    color: white;
+    background-color: black;
+}
+footer{
+    color: white;
+    background-image: url(../Images/twitter-header-1600-x-1000-background-epbnhmsd4gr4pke1.jpg);
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+address a{
+    color:seagreen;
+    font-family: monospace;
+}
